@@ -1,0 +1,56 @@
+.div-form{
+    max-width: 500px;
+    box-shadow: 1px .3px 10px 2px black;
+    margin-left: 35%;
+    padding: 2rem 1.5rem;
+}
+
+.div-form label{
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    margin-bottom: 1.6rem;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.div-form label{
+    font-size: 1.3rem;
+}
+
+.btn-save{
+    background-color: dodgerblue;
+    font-size: 1.4rem;
+    padding: 7px 15px;
+    transition: all 0.2s linear;
+}
+
+.btn-save:hover{
+    background-color: #45a049;
+}
