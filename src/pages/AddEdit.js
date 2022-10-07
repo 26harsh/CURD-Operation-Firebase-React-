@@ -31,16 +31,13 @@ const AddEdit = () => {
       name: values.name,
       email: values.email,
       contact: values.contact,
-    })
-      .then((res) => {
+    }).then((res) => {
         console.log(res);
         window.alert(`"${res.data.name}" is created`);
         window.location.reload();
-      })
-
-      .catch((err) => {
+      }).catch((err) => {
         console.log(err);
-        toast.success("Contact added successfully")
+        toast.success("Sucessfully created")
         // window.location.reload();
       });
       setTimeout(() => history.push("/"), 500);
